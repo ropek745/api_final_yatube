@@ -37,7 +37,7 @@ python3 manage.py runserver
 
 ## Примеры запросов
 
-1. Получение списка публикаций (GET) - /api/v1/posts/
+**1. Получение списка публикаций (GET) - /api/v1/posts/**
 
 Ответ:
 ```
@@ -57,7 +57,7 @@ python3 manage.py runserver
   ]
 }
 ```
-2. Получение конкретной публикации (GET) - /api/v1/posts/{id}/
+**2. Получение конкретной публикации (GET) - /api/v1/posts/{id}/**
 
 Ответ:
 ```
@@ -70,7 +70,7 @@ python3 manage.py runserver
   "group": 0
 }
 ```
-3. Создание публикации (POST) - /api/v1/posts/
+**3. Создание публикации (POST) - /api/v1/posts/**
 
 Ответ:
 ```
@@ -80,7 +80,7 @@ python3 manage.py runserver
   "group": 0
 }
 ```
-4. Получение комментариев (GET) - /api/v1/posts/{post_id}/comments/
+**4. Получение комментариев (GET) - /api/v1/posts/{post_id}/comments/**
 
 Ответ:
 ```
@@ -94,7 +94,7 @@ python3 manage.py runserver
   }
 ]
 ```
-5. Получение комментария (GET) - /api/v1/posts/{post_id}/comments/{id}/
+**5. Получение комментария (GET) - /api/v1/posts/{post_id}/comments/{id}/**
 
 Ответ:
 ```
